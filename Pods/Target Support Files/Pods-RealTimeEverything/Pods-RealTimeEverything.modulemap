@@ -1,0 +1,6 @@
+framework module Pods_RealTimeEverything {
+  umbrella header "Pods-RealTimeEverything-umbrella.h"
+
+  export *
+  module * { export * }
+}

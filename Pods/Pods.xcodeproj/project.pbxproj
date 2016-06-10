@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C72CE6EA0A82DEF6AE77B05DED27C96 /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D28415348E9E0535DBD93E805CD2DEF /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26494113D070CFC08B0071EA61BCB404 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314BF69C020662761137B9305A81934B /* SocketAckEmitter.swift */; };
+		2CD771EEAC3CE23880FDED4EE1730E58 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD208C41DC3BCB69BBE4292C559B2D60 /* SocketAnyEvent.swift */; };
+		2E46CC67FB24E805163A5B6340B07706 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C80716A35195925E938FA474E213B88 /* SocketEventHandler.swift */; };
+		309369E8DD8B497378303B19609F50ED /* SocketClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316A5524DE966AFB2A40D129543320E /* SocketClientSpec.swift */; };
+		41B1FB1E5A9D8D7D6FE21C94CBA618C3 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DDD6B0969F688CF43EEE4CA9C0D1 /* SocketIOClient.swift */; };
+		52C901CF0936DADF77F24EC4C86F68D5 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358CCD9D3771EB58C60CD0AE5CDA9F9C /* SocketAckManager.swift */; };
+		5A801F1E823887838DA3CAC23C8758E2 /* Pods-RealTimeEverything-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8854B8D410B29187EEBE3BE543700434 /* Pods-RealTimeEverything-dummy.m */; };
+		5CDC7EB17D870A97F192DB818DD93531 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0C26D23A3C0C9AD05089A077A9606 /* SocketIOClientOption.swift */; };
+		61F1646AAFA57F1FCA03C79A6DE739A6 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E001945EFA29A682DA3D64D9709972DC /* SocketStringReader.swift */; };
+		640D41B970FC1D25F664CDC6B94C7A91 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DEB697AE692542826D6B584F3399C /* SocketPacket.swift */; };
+		6501181F805ACF007BF2071FF33B3EBC /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA581740E7E5D33E2B71C17FF9FA849 /* SocketEngineWebsocket.swift */; };
+		6543D2B92D8DF70C4E4BDF83D9A73D49 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52C3615C785B1FEF1F21B19555B1567 /* SocketEngineSpec.swift */; };
+		6DDAA996AC3BEFAF3B87EB718AE5DD18 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67197C9B5484A31BD5109E4DCC4089 /* SocketTypes.swift */; };
+		7377B2CA289FD70A584C66A0CE4C21E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7566846ECEF17CC3CE9B09B474BD2282 /* Pods-RealTimeEverythingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E6D52B52EBA9A45492551A3F3C31DC /* Pods-RealTimeEverythingTests-dummy.m */; };
+		84145B5F03A0B42DF90EB77DCE643E95 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69009B64398EBA4A75A98AE55DB7CEE /* SocketIOClientStatus.swift */; };
+		896D9E38A0C6D4A1951D3381DD694DE8 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C891B71C1A9618B1FA4B36939403E1AC /* WebSocket.swift */; };
+		946E84DDFD1D852940268D71954E5D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		98284D806C8A8DEF1B69CAEBC0AC7583 /* Pods-RealTimeEverything-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5B4ABFCA1215C7C502C72F4C9C3E4F /* Pods-RealTimeEverything-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2D7A60E9C1A59FB4C6DD7860ECCFEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9DB280C1D83D2D265045DBB3244E0A80 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED98811E72E54F1EDDC5544EC0D2E7 /* SocketEnginePollable.swift */; };
+		9E3DBB40C039F37F6BAC56723EBDE0E9 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C84B4BF72CADB753B644BFEAA6F4D /* SocketEngineClient.swift */; };
+		A5F47C686256319FF6A0AFFF6739D2C5 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5A2FE647D3CBE5479411D7EFCAE60 /* SocketEngine.swift */; };
+		B7EAA912693D807C8EA2D200C35589D2 /* Pods-RealTimeEverythingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C915C367D6FA167F85B3CEB4FEBE2A09 /* Pods-RealTimeEverythingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2626B9C3C9E5ACBA3E4BB8506B905A4 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F380DA9B439E98E0636976A1435ABB1 /* SocketEnginePacketType.swift */; };
+		D0210E64BE559B9B0F2F923162517BF2 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483D5182437244AA62BC232BE52D9410 /* SocketParsable.swift */; };
+		D599360D670DF1E3AC47CB98608017F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DF302161EE4AB3345CAC5F7B8B9C5EB4 /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC93A390694607A0A272D1F54D7201D7 /* Socket.IO-Client-Swift-dummy.m */; };
+		E670115876B33BE64F5BFC24058EC822 /* Pods-RealTimeEverythingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 599E9735E642A9C23F9C52054F88B083 /* Pods-RealTimeEverythingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB748390DCB728A6C75F1F92BD3FBBDB /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E249CFCBADAE9ADFD31051480AC91492 /* SwiftRegex.swift */; };
+		EF2209730B4C3D8BC55674B053B84DE7 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E476C94969CBE9C0FB3EC99811DF6C31 /* SocketLogger.swift */; };
+		F1406529665FCACCA011F48E8AD50E53 /* Pods-RealTimeEverythingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6206A4A6DF6A229656005747926E565 /* Pods-RealTimeEverythingUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		512C09CABFB22BFBC2D2046745AF3123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA22E9FEDFAD8BA15FA5555E07C48DD6;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003C84B4BF72CADB753B644BFEAA6F4D /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketEngineClient.swift; sourceTree = "<group>"; };
+		0104BE8A94A6CF104A13CD1040B2EBF5 /* Pods-RealTimeEverythingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealTimeEverythingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0140025B4748D14E1493786D808F0D9B /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		0AE7D00BB2E6313ABF2D5B0B6BE29CD6 /* Pods-RealTimeEverythingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealTimeEverythingTests.modulemap"; sourceTree = "<group>"; };
+		0E26E5840EDE537807A18CF4DCEB45D5 /* Pods_RealTimeEverythingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeEverythingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5B4ABFCA1215C7C502C72F4C9C3E4F /* Pods-RealTimeEverything-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealTimeEverything-umbrella.h"; sourceTree = "<group>"; };
+		1A67197C9B5484A31BD5109E4DCC4089 /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = Source/SocketTypes.swift; sourceTree = "<group>"; };
+		1D28415348E9E0535DBD93E805CD2DEF /* Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		23340C9B514FA284FA03444D8F8AF2E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2638D6AF8EF7F7D519AB9040753E2CE6 /* Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		27A786767FAB569BCAEAF20ACF9E87CA /* Pods-RealTimeEverything-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealTimeEverything-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A59DDD6B0969F688CF43EEE4CA9C0D1 /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIOClient.swift; sourceTree = "<group>"; };
+		2F687A2491DB88AB4A27F97ED7D5FCD5 /* Pods-RealTimeEverything-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealTimeEverything-acknowledgements.markdown"; sourceTree = "<group>"; };
+		300D72A0E732405CE085995860E82A98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314BF69C020662761137B9305A81934B /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketAckEmitter.swift; sourceTree = "<group>"; };
+		352D92F70B36F3E379B8217926ADA895 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358CCD9D3771EB58C60CD0AE5CDA9F9C /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketAckManager.swift; sourceTree = "<group>"; };
+		3BED98811E72E54F1EDDC5544EC0D2E7 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketEnginePollable.swift; sourceTree = "<group>"; };
+		3C80716A35195925E938FA474E213B88 /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketEventHandler.swift; sourceTree = "<group>"; };
+		400A4BCF5C706F1A90C89833CBC59295 /* Pods-RealTimeEverythingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealTimeEverythingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		469898EC90366401BF3137F1AEC34766 /* Pods-RealTimeEverythingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealTimeEverythingUITests.modulemap"; sourceTree = "<group>"; };
+		483D5182437244AA62BC232BE52D9410 /* SocketParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = Source/SocketParsable.swift; sourceTree = "<group>"; };
+		4DF2B708E2E97861E0D1B7361D31F212 /* Pods-RealTimeEverythingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealTimeEverythingTests.release.xcconfig"; sourceTree = "<group>"; };
+		569559A784C8EA363F409EE20A31E12E /* Pods_RealTimeEverything.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeEverything.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59482A68E05728AAC650071CEC953EA9 /* Pods-RealTimeEverythingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealTimeEverythingTests-frameworks.sh"; sourceTree = "<group>"; };
+		599E9735E642A9C23F9C52054F88B083 /* Pods-RealTimeEverythingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealTimeEverythingUITests-umbrella.h"; sourceTree = "<group>"; };
+		64F643D8E63B80D17EBBCD9649A19ED9 /* Pods-RealTimeEverythingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealTimeEverythingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68C0C26D23A3C0C9AD05089A077A9606 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIOClientOption.swift; sourceTree = "<group>"; };
+		6BC450BD8A82001AA13E528FE43F75ED /* Pods-RealTimeEverythingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealTimeEverythingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F380DA9B439E98E0636976A1435ABB1 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		703389087BACEA42A9F8184759DD5B85 /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIOClientSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFF89C5138727488120C0A7724F57B9 /* Pods-RealTimeEverythingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealTimeEverythingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B59FBA46679D56E32045BE023A886BF /* Pods_RealTimeEverythingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeEverythingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8854B8D410B29187EEBE3BE543700434 /* Pods-RealTimeEverything-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealTimeEverything-dummy.m"; sourceTree = "<group>"; };
+		9224BCFF2A0ED902D0AA7161D9F3E744 /* Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E6D52B52EBA9A45492551A3F3C31DC /* Pods-RealTimeEverythingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealTimeEverythingTests-dummy.m"; sourceTree = "<group>"; };
+		9ED592FA28F0498054926F83914F0DD7 /* Pods-RealTimeEverythingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealTimeEverythingUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9F4DEB697AE692542826D6B584F3399C /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketPacket.swift; sourceTree = "<group>"; };
+		A69009B64398EBA4A75A98AE55DB7CEE /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientStatus.swift; path = Source/SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		AD75556BAB3420B65F039901C00A10A2 /* Pods-RealTimeEverything-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealTimeEverything-resources.sh"; sourceTree = "<group>"; };
+		AEB5A2FE647D3CBE5479411D7EFCAE60 /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketEngine.swift; sourceTree = "<group>"; };
+		BC93A390694607A0A272D1F54D7201D7 /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
+		BFA581740E7E5D33E2B71C17FF9FA849 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		C0E1A2D8D8460CCFEE9D332712C8F254 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1980BF1457995769C14B6209F6DF89C /* Pods-RealTimeEverythingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealTimeEverythingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C891B71C1A9618B1FA4B36939403E1AC /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		C915C367D6FA167F85B3CEB4FEBE2A09 /* Pods-RealTimeEverythingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealTimeEverythingTests-umbrella.h"; sourceTree = "<group>"; };
+		CE5D3D4F54D288FBB2C45F4FE0E7A949 /* Pods-RealTimeEverything.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealTimeEverything.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0C2A82F5279BF62750F08005ECADC24 /* Pods-RealTimeEverythingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealTimeEverythingUITests-resources.sh"; sourceTree = "<group>"; };
+		D24F59B6D4B0E80523B76776D050F784 /* Pods-RealTimeEverything.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealTimeEverything.modulemap"; sourceTree = "<group>"; };
+		D316A5524DE966AFB2A40D129543320E /* SocketClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketClientSpec.swift; path = Source/SocketClientSpec.swift; sourceTree = "<group>"; };
+		D55981DCFD6AB76E47CB2DD8C4589AA0 /* Pods-RealTimeEverythingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealTimeEverythingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E001945EFA29A682DA3D64D9709972DC /* SocketStringReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = Source/SocketStringReader.swift; sourceTree = "<group>"; };
+		E249CFCBADAE9ADFD31051480AC91492 /* SwiftRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = Source/SwiftRegex.swift; sourceTree = "<group>"; };
+		E476C94969CBE9C0FB3EC99811DF6C31 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketLogger.swift; sourceTree = "<group>"; };
+		E52C3615C785B1FEF1F21B19555B1567 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketEngineSpec.swift; sourceTree = "<group>"; };
+		EDD46521103B4966DED3A858FA9517F0 /* Pods-RealTimeEverything.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealTimeEverything.release.xcconfig"; sourceTree = "<group>"; };
+		F2D5D757B12DFE9B333D836AD90B5FB2 /* Pods-RealTimeEverything-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealTimeEverything-frameworks.sh"; sourceTree = "<group>"; };
+		F392A57F6929CA7B99025D0C2C8108DE /* Pods-RealTimeEverythingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealTimeEverythingTests-resources.sh"; sourceTree = "<group>"; };
+		F6206A4A6DF6A229656005747926E565 /* Pods-RealTimeEverythingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealTimeEverythingUITests-dummy.m"; sourceTree = "<group>"; };
+		FD208C41DC3BCB69BBE4292C559B2D60 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketAnyEvent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EBB210BF3344E7050D128F0B8DDAEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2D7A60E9C1A59FB4C6DD7860ECCFEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD96B6DC658FC0322459BA595A5CF1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946E84DDFD1D852940268D71954E5D01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90387B1E217D050A91B2CC79E749FD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D599360D670DF1E3AC47CB98608017F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEE37C233C6AEF4264C90F5CE03CFF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7377B2CA289FD70A584C66A0CE4C21E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152013D38FD249A3EF0A08D1AB86B652 /* Pods-RealTimeEverythingTests */ = {
+			isa = PBXGroup;
+			children = (
+				23340C9B514FA284FA03444D8F8AF2E0 /* Info.plist */,
+				0AE7D00BB2E6313ABF2D5B0B6BE29CD6 /* Pods-RealTimeEverythingTests.modulemap */,
+				C1980BF1457995769C14B6209F6DF89C /* Pods-RealTimeEverythingTests-acknowledgements.markdown */,
+				D55981DCFD6AB76E47CB2DD8C4589AA0 /* Pods-RealTimeEverythingTests-acknowledgements.plist */,
+				96E6D52B52EBA9A45492551A3F3C31DC /* Pods-RealTimeEverythingTests-dummy.m */,
+				59482A68E05728AAC650071CEC953EA9 /* Pods-RealTimeEverythingTests-frameworks.sh */,
+				F392A57F6929CA7B99025D0C2C8108DE /* Pods-RealTimeEverythingTests-resources.sh */,
+				C915C367D6FA167F85B3CEB4FEBE2A09 /* Pods-RealTimeEverythingTests-umbrella.h */,
+				64F643D8E63B80D17EBBCD9649A19ED9 /* Pods-RealTimeEverythingTests.debug.xcconfig */,
+				4DF2B708E2E97861E0D1B7361D31F212 /* Pods-RealTimeEverythingTests.release.xcconfig */,
+			);
+			name = "Pods-RealTimeEverythingTests";
+			path = "Target Support Files/Pods-RealTimeEverythingTests";
+			sourceTree = "<group>";
+		};
+		2B7B24DDC018D25337EDD14CB55AA970 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D343232F25B7D776BC72457B0BEEAAE /* Pods-RealTimeEverything */,
+				152013D38FD249A3EF0A08D1AB86B652 /* Pods-RealTimeEverythingTests */,
+				5F7F394C907A0E04306FF0E962CC7C5E /* Pods-RealTimeEverythingUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4D343232F25B7D776BC72457B0BEEAAE /* Pods-RealTimeEverything */ = {
+			isa = PBXGroup;
+			children = (
+				300D72A0E732405CE085995860E82A98 /* Info.plist */,
+				D24F59B6D4B0E80523B76776D050F784 /* Pods-RealTimeEverything.modulemap */,
+				2F687A2491DB88AB4A27F97ED7D5FCD5 /* Pods-RealTimeEverything-acknowledgements.markdown */,
+				27A786767FAB569BCAEAF20ACF9E87CA /* Pods-RealTimeEverything-acknowledgements.plist */,
+				8854B8D410B29187EEBE3BE543700434 /* Pods-RealTimeEverything-dummy.m */,
+				F2D5D757B12DFE9B333D836AD90B5FB2 /* Pods-RealTimeEverything-frameworks.sh */,
+				AD75556BAB3420B65F039901C00A10A2 /* Pods-RealTimeEverything-resources.sh */,
+				0E5B4ABFCA1215C7C502C72F4C9C3E4F /* Pods-RealTimeEverything-umbrella.h */,
+				CE5D3D4F54D288FBB2C45F4FE0E7A949 /* Pods-RealTimeEverything.debug.xcconfig */,
+				EDD46521103B4966DED3A858FA9517F0 /* Pods-RealTimeEverything.release.xcconfig */,
+			);
+			name = "Pods-RealTimeEverything";
+			path = "Target Support Files/Pods-RealTimeEverything";
+			sourceTree = "<group>";
+		};
+		5F7F394C907A0E04306FF0E962CC7C5E /* Pods-RealTimeEverythingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0E1A2D8D8460CCFEE9D332712C8F254 /* Info.plist */,
+				469898EC90366401BF3137F1AEC34766 /* Pods-RealTimeEverythingUITests.modulemap */,
+				6BC450BD8A82001AA13E528FE43F75ED /* Pods-RealTimeEverythingUITests-acknowledgements.markdown */,
+				0104BE8A94A6CF104A13CD1040B2EBF5 /* Pods-RealTimeEverythingUITests-acknowledgements.plist */,
+				F6206A4A6DF6A229656005747926E565 /* Pods-RealTimeEverythingUITests-dummy.m */,
+				9ED592FA28F0498054926F83914F0DD7 /* Pods-RealTimeEverythingUITests-frameworks.sh */,
+				D0C2A82F5279BF62750F08005ECADC24 /* Pods-RealTimeEverythingUITests-resources.sh */,
+				599E9735E642A9C23F9C52054F88B083 /* Pods-RealTimeEverythingUITests-umbrella.h */,
+				400A4BCF5C706F1A90C89833CBC59295 /* Pods-RealTimeEverythingUITests.debug.xcconfig */,
+				7AFF89C5138727488120C0A7724F57B9 /* Pods-RealTimeEverythingUITests.release.xcconfig */,
+			);
+			name = "Pods-RealTimeEverythingUITests";
+			path = "Target Support Files/Pods-RealTimeEverythingUITests";
+			sourceTree = "<group>";
+		};
+		72EF242505FDE2A217DAC182BCE26290 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				352D92F70B36F3E379B8217926ADA895 /* Info.plist */,
+				0140025B4748D14E1493786D808F0D9B /* Socket.IO-Client-Swift.modulemap */,
+				9224BCFF2A0ED902D0AA7161D9F3E744 /* Socket.IO-Client-Swift.xcconfig */,
+				BC93A390694607A0A272D1F54D7201D7 /* Socket.IO-Client-Swift-dummy.m */,
+				2638D6AF8EF7F7D519AB9040753E2CE6 /* Socket.IO-Client-Swift-prefix.pch */,
+				1D28415348E9E0535DBD93E805CD2DEF /* Socket.IO-Client-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A2EFDFD09A972F8399431B97967023CD /* Pods */,
+				EFFE4731492A42F095CE916F6337C327 /* Products */,
+				2B7B24DDC018D25337EDD14CB55AA970 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2EFDFD09A972F8399431B97967023CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7A28583265D15502F4EDD31B6F72318 /* Socket.IO-Client-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7A28583265D15502F4EDD31B6F72318 /* Socket.IO-Client-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				314BF69C020662761137B9305A81934B /* SocketAckEmitter.swift */,
+				358CCD9D3771EB58C60CD0AE5CDA9F9C /* SocketAckManager.swift */,
+				FD208C41DC3BCB69BBE4292C559B2D60 /* SocketAnyEvent.swift */,
+				D316A5524DE966AFB2A40D129543320E /* SocketClientSpec.swift */,
+				AEB5A2FE647D3CBE5479411D7EFCAE60 /* SocketEngine.swift */,
+				003C84B4BF72CADB753B644BFEAA6F4D /* SocketEngineClient.swift */,
+				6F380DA9B439E98E0636976A1435ABB1 /* SocketEnginePacketType.swift */,
+				3BED98811E72E54F1EDDC5544EC0D2E7 /* SocketEnginePollable.swift */,
+				E52C3615C785B1FEF1F21B19555B1567 /* SocketEngineSpec.swift */,
+				BFA581740E7E5D33E2B71C17FF9FA849 /* SocketEngineWebsocket.swift */,
+				3C80716A35195925E938FA474E213B88 /* SocketEventHandler.swift */,
+				2A59DDD6B0969F688CF43EEE4CA9C0D1 /* SocketIOClient.swift */,
+				68C0C26D23A3C0C9AD05089A077A9606 /* SocketIOClientOption.swift */,
+				A69009B64398EBA4A75A98AE55DB7CEE /* SocketIOClientStatus.swift */,
+				E476C94969CBE9C0FB3EC99811DF6C31 /* SocketLogger.swift */,
+				9F4DEB697AE692542826D6B584F3399C /* SocketPacket.swift */,
+				483D5182437244AA62BC232BE52D9410 /* SocketParsable.swift */,
+				E001945EFA29A682DA3D64D9709972DC /* SocketStringReader.swift */,
+				1A67197C9B5484A31BD5109E4DCC4089 /* SocketTypes.swift */,
+				E249CFCBADAE9ADFD31051480AC91492 /* SwiftRegex.swift */,
+				C891B71C1A9618B1FA4B36939403E1AC /* WebSocket.swift */,
+				72EF242505FDE2A217DAC182BCE26290 /* Support Files */,
+			);
+			path = "Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		EFFE4731492A42F095CE916F6337C327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569559A784C8EA363F409EE20A31E12E /* Pods_RealTimeEverything.framework */,
+				0E26E5840EDE537807A18CF4DCEB45D5 /* Pods_RealTimeEverythingTests.framework */,
+				7B59FBA46679D56E32045BE023A886BF /* Pods_RealTimeEverythingUITests.framework */,
+				703389087BACEA42A9F8184759DD5B85 /* SocketIOClientSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41C7D61A603CE3D7E22F817BF6EEBDFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E670115876B33BE64F5BFC24058EC822 /* Pods-RealTimeEverythingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431A9EE67CD4D76618921372FCA10823 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EAA912693D807C8EA2D200C35589D2 /* Pods-RealTimeEverythingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820770AF8D12E4500F64A4FDDB46931B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98284D806C8A8DEF1B69CAEBC0AC7583 /* Pods-RealTimeEverything-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C784A3181BD0E8BA85C6FE38E2E0D890 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C72CE6EA0A82DEF6AE77B05DED27C96 /* Socket.IO-Client-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19316FF61017BFCF46F8FBB7290085E9 /* Pods-RealTimeEverythingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910E055B81A708803F1594B7BE738E5D /* Build configuration list for PBXNativeTarget "Pods-RealTimeEverythingUITests" */;
+			buildPhases = (
+				CC223AC2670775821E2E767130F38107 /* Sources */,
+				8DD96B6DC658FC0322459BA595A5CF1D /* Frameworks */,
+				41C7D61A603CE3D7E22F817BF6EEBDFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RealTimeEverythingUITests";
+			productName = "Pods-RealTimeEverythingUITests";
+			productReference = 7B59FBA46679D56E32045BE023A886BF /* Pods_RealTimeEverythingUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B2C36C487D64F8BABC93F93F1805308 /* Pods-RealTimeEverythingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EE98C9068F2EA2E4EE0818B7002E21 /* Build configuration list for PBXNativeTarget "Pods-RealTimeEverythingTests" */;
+			buildPhases = (
+				4C6DD57B2C1D0715788B9D869EF18EC5 /* Sources */,
+				ACEE37C233C6AEF4264C90F5CE03CFF0 /* Frameworks */,
+				431A9EE67CD4D76618921372FCA10823 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RealTimeEverythingTests";
+			productName = "Pods-RealTimeEverythingTests";
+			productReference = 0E26E5840EDE537807A18CF4DCEB45D5 /* Pods_RealTimeEverythingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA22E9FEDFAD8BA15FA5555E07C48DD6 /* Socket.IO-Client-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBF1FC194A7C20BEE5F568EA6289259 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
+			buildPhases = (
+				C96A131135BC6A732B2EFF01AFBEDCCC /* Sources */,
+				90387B1E217D050A91B2CC79E749FD35 /* Frameworks */,
+				C784A3181BD0E8BA85C6FE38E2E0D890 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket.IO-Client-Swift";
+			productName = "Socket.IO-Client-Swift";
+			productReference = 703389087BACEA42A9F8184759DD5B85 /* SocketIOClientSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5A1999AAB71B786B2819B660E6F2D16 /* Pods-RealTimeEverything */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DC86908102A49AA625E0B35CFCA5E4 /* Build configuration list for PBXNativeTarget "Pods-RealTimeEverything" */;
+			buildPhases = (
+				D0C4085892F0D3CF5380C41D5527699E /* Sources */,
+				3EBB210BF3344E7050D128F0B8DDAEE5 /* Frameworks */,
+				820770AF8D12E4500F64A4FDDB46931B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F7B0B1CCA53CFA59FA24568686B757 /* PBXTargetDependency */,
+			);
+			name = "Pods-RealTimeEverything";
+			productName = "Pods-RealTimeEverything";
+			productReference = 569559A784C8EA363F409EE20A31E12E /* Pods_RealTimeEverything.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EFFE4731492A42F095CE916F6337C327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5A1999AAB71B786B2819B660E6F2D16 /* Pods-RealTimeEverything */,
+				3B2C36C487D64F8BABC93F93F1805308 /* Pods-RealTimeEverythingTests */,
+				19316FF61017BFCF46F8FBB7290085E9 /* Pods-RealTimeEverythingUITests */,
+				AA22E9FEDFAD8BA15FA5555E07C48DD6 /* Socket.IO-Client-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6DD57B2C1D0715788B9D869EF18EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7566846ECEF17CC3CE9B09B474BD2282 /* Pods-RealTimeEverythingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96A131135BC6A732B2EFF01AFBEDCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF302161EE4AB3345CAC5F7B8B9C5EB4 /* Socket.IO-Client-Swift-dummy.m in Sources */,
+				26494113D070CFC08B0071EA61BCB404 /* SocketAckEmitter.swift in Sources */,
+				52C901CF0936DADF77F24EC4C86F68D5 /* SocketAckManager.swift in Sources */,
+				2CD771EEAC3CE23880FDED4EE1730E58 /* SocketAnyEvent.swift in Sources */,
+				309369E8DD8B497378303B19609F50ED /* SocketClientSpec.swift in Sources */,
+				A5F47C686256319FF6A0AFFF6739D2C5 /* SocketEngine.swift in Sources */,
+				9E3DBB40C039F37F6BAC56723EBDE0E9 /* SocketEngineClient.swift in Sources */,
+				C2626B9C3C9E5ACBA3E4BB8506B905A4 /* SocketEnginePacketType.swift in Sources */,
+				9DB280C1D83D2D265045DBB3244E0A80 /* SocketEnginePollable.swift in Sources */,
+				6543D2B92D8DF70C4E4BDF83D9A73D49 /* SocketEngineSpec.swift in Sources */,
+				6501181F805ACF007BF2071FF33B3EBC /* SocketEngineWebsocket.swift in Sources */,
+				2E46CC67FB24E805163A5B6340B07706 /* SocketEventHandler.swift in Sources */,
+				41B1FB1E5A9D8D7D6FE21C94CBA618C3 /* SocketIOClient.swift in Sources */,
+				5CDC7EB17D870A97F192DB818DD93531 /* SocketIOClientOption.swift in Sources */,
+				84145B5F03A0B42DF90EB77DCE643E95 /* SocketIOClientStatus.swift in Sources */,
+				EF2209730B4C3D8BC55674B053B84DE7 /* SocketLogger.swift in Sources */,
+				640D41B970FC1D25F664CDC6B94C7A91 /* SocketPacket.swift in Sources */,
+				D0210E64BE559B9B0F2F923162517BF2 /* SocketParsable.swift in Sources */,
+				61F1646AAFA57F1FCA03C79A6DE739A6 /* SocketStringReader.swift in Sources */,
+				6DDAA996AC3BEFAF3B87EB718AE5DD18 /* SocketTypes.swift in Sources */,
+				EB748390DCB728A6C75F1F92BD3FBBDB /* SwiftRegex.swift in Sources */,
+				896D9E38A0C6D4A1951D3381DD694DE8 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC223AC2670775821E2E767130F38107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1406529665FCACCA011F48E8AD50E53 /* Pods-RealTimeEverythingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C4085892F0D3CF5380C41D5527699E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A801F1E823887838DA3CAC23C8758E2 /* Pods-RealTimeEverything-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F7B0B1CCA53CFA59FA24568686B757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift";
+			target = AA22E9FEDFAD8BA15FA5555E07C48DD6 /* Socket.IO-Client-Swift */;
+			targetProxy = 512C09CABFB22BFBC2D2046745AF3123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		174D3FB7CB5140C0A661632ABF62A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9224BCFF2A0ED902D0AA7161D9F3E744 /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketIOClientSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AC03823D659443952A6B2989E00EF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9224BCFF2A0ED902D0AA7161D9F3E744 /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketIOClientSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		232A2A010715887359B623BD4F218EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF2B708E2E97861E0D1B7361D31F212 /* Pods-RealTimeEverythingTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealTimeEverythingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealTimeEverythingTests/Pods-RealTimeEverythingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealTimeEverythingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D7BBD5F51DC1E79776049B6630CAE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F643D8E63B80D17EBBCD9649A19ED9 /* Pods-RealTimeEverythingTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealTimeEverythingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealTimeEverythingTests/Pods-RealTimeEverythingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealTimeEverythingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A7135082F71439A8C3298A186E36609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFF89C5138727488120C0A7724F57B9 /* Pods-RealTimeEverythingUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealTimeEverythingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealTimeEverythingUITests/Pods-RealTimeEverythingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealTimeEverythingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BC4D59B3DF141D0C08DA18AB78989DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400A4BCF5C706F1A90C89833CBC59295 /* Pods-RealTimeEverythingUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealTimeEverythingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealTimeEverythingUITests/Pods-RealTimeEverythingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealTimeEverythingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D61243734A45529660AF5A38C19B846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD46521103B4966DED3A858FA9517F0 /* Pods-RealTimeEverything.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealTimeEverything/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealTimeEverything/Pods-RealTimeEverything.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealTimeEverything;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A71F32F6A88F63B462B743B01CA0114E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5D3D4F54D288FBB2C45F4FE0E7A949 /* Pods-RealTimeEverything.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealTimeEverything/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealTimeEverything/Pods-RealTimeEverything.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealTimeEverything;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EE98C9068F2EA2E4EE0818B7002E21 /* Build configuration list for PBXNativeTarget "Pods-RealTimeEverythingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7BBD5F51DC1E79776049B6630CAE00 /* Debug */,
+				232A2A010715887359B623BD4F218EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBF1FC194A7C20BEE5F568EA6289259 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC03823D659443952A6B2989E00EF8A /* Debug */,
+				174D3FB7CB5140C0A661632ABF62A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910E055B81A708803F1594B7BE738E5D /* Build configuration list for PBXNativeTarget "Pods-RealTimeEverythingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC4D59B3DF141D0C08DA18AB78989DB /* Debug */,
+				4A7135082F71439A8C3298A186E36609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DC86908102A49AA625E0B35CFCA5E4 /* Build configuration list for PBXNativeTarget "Pods-RealTimeEverything" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71F32F6A88F63B462B743B01CA0114E /* Debug */,
+				7D61243734A45529660AF5A38C19B846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
