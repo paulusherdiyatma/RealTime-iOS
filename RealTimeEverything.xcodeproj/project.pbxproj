@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26526BF31D0ADD7000638A57 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26526BF21D0ADD7000638A57 /* GoodViewController.swift */; };
+		26526BF51D0ADD9600638A57 /* GoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26526BF41D0ADD9600638A57 /* GoodCell.swift */; };
+		26526BF71D0ADDAE00638A57 /* GoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26526BF61D0ADDAE00638A57 /* GoodCell.xib */; };
+		26526BFB1D0ADDE500638A57 /* GoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26526BFA1D0ADDE500638A57 /* GoodDetailsViewController.swift */; };
+		26526BFF1D0BA66100638A57 /* Good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26526BFE1D0BA66100638A57 /* Good.swift */; };
+		26526C061D0BCA4D00638A57 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26526C051D0BCA4D00638A57 /* CustomLabel.swift */; };
 		4FDB17801D0A94A8005AB36E /* restApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB177F1D0A94A8005AB36E /* restApi.swift */; };
 		4FDBD7281D0A8CD700B44FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBD7271D0A8CD700B44FEC /* AppDelegate.swift */; };
 		4FDBD72A1D0A8CD700B44FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBD7291D0A8CD700B44FEC /* ViewController.swift */; };
@@ -42,6 +48,12 @@
 		09EEC1FE6B81CD6B1F8E3D9B /* Pods-RealTimeEverythingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeEverythingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeEverythingTests/Pods-RealTimeEverythingTests.release.xcconfig"; sourceTree = "<group>"; };
 		19DDB4432E8D099DB58C3E0D /* Pods-RealTimeEverythingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeEverythingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeEverythingUITests/Pods-RealTimeEverythingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2470D169D4E87ABBE4227B93 /* Pods-RealTimeEverythingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeEverythingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeEverythingTests/Pods-RealTimeEverythingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26526BF21D0ADD7000638A57 /* GoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoodViewController.swift; path = module/good/GoodViewController.swift; sourceTree = "<group>"; };
+		26526BF41D0ADD9600638A57 /* GoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoodCell.swift; path = module/good/cell/GoodCell.swift; sourceTree = "<group>"; };
+		26526BF61D0ADDAE00638A57 /* GoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GoodCell.xib; path = module/good/cell/GoodCell.xib; sourceTree = "<group>"; };
+		26526BFA1D0ADDE500638A57 /* GoodDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoodDetailsViewController.swift; path = module/good/GoodDetailsViewController.swift; sourceTree = "<group>"; };
+		26526BFE1D0BA66100638A57 /* Good.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Good.swift; path = module/good/model/Good.swift; sourceTree = "<group>"; };
+		26526C051D0BCA4D00638A57 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLabel.swift; path = custom/CustomLabel.swift; sourceTree = "<group>"; };
 		3CF0ACE3D3D4B749E60BADC8 /* Pods-RealTimeEverything.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeEverything.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeEverything/Pods-RealTimeEverything.release.xcconfig"; sourceTree = "<group>"; };
 		45B529796F7FDDA167F3CCF5 /* Pods-RealTimeEverythingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeEverythingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeEverythingUITests/Pods-RealTimeEverythingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4FDB177F1D0A94A8005AB36E /* restApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restApi.swift; sourceTree = "<group>"; };
@@ -106,6 +118,50 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		26526BEF1D0ADCEB00638A57 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				26526BF01D0ADCFB00638A57 /* good */,
+			);
+			name = module;
+			sourceTree = "<group>";
+		};
+		26526BF01D0ADCFB00638A57 /* good */ = {
+			isa = PBXGroup;
+			children = (
+				26526BFD1D0BA64C00638A57 /* model */,
+				26526BF11D0ADD0100638A57 /* cell */,
+				26526BF21D0ADD7000638A57 /* GoodViewController.swift */,
+				26526BFA1D0ADDE500638A57 /* GoodDetailsViewController.swift */,
+			);
+			name = good;
+			sourceTree = "<group>";
+		};
+		26526BF11D0ADD0100638A57 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				26526BF41D0ADD9600638A57 /* GoodCell.swift */,
+				26526BF61D0ADDAE00638A57 /* GoodCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		26526BFD1D0BA64C00638A57 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				26526BFE1D0BA66100638A57 /* Good.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		26526C001D0BC8EF00638A57 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				26526C051D0BCA4D00638A57 /* CustomLabel.swift */,
+			);
+			name = custom;
+			sourceTree = "<group>";
+		};
 		28E259F49B3674749DF478A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +197,8 @@
 		4FDBD7261D0A8CD700B44FEC /* RealTimeEverything */ = {
 			isa = PBXGroup;
 			children = (
+				26526C001D0BC8EF00638A57 /* custom */,
+				26526BEF1D0ADCEB00638A57 /* module */,
 				4FDBD7271D0A8CD700B44FEC /* AppDelegate.swift */,
 				4FDBD7291D0A8CD700B44FEC /* ViewController.swift */,
 				4FDBD72B1D0A8CD700B44FEC /* Main.storyboard */,
@@ -285,6 +343,7 @@
 			files = (
 				4FDBD7351D0A8CD700B44FEC /* LaunchScreen.storyboard in Resources */,
 				4FDBD7321D0A8CD700B44FEC /* Assets.xcassets in Resources */,
+				26526BF71D0ADDAE00638A57 /* GoodCell.xib in Resources */,
 				4FDBD72D1D0A8CD700B44FEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,9 +492,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26526BF31D0ADD7000638A57 /* GoodViewController.swift in Sources */,
+				26526C061D0BCA4D00638A57 /* CustomLabel.swift in Sources */,
+				26526BFB1D0ADDE500638A57 /* GoodDetailsViewController.swift in Sources */,
 				4FDB17801D0A94A8005AB36E /* restApi.swift in Sources */,
 				4FDBD72A1D0A8CD700B44FEC /* ViewController.swift in Sources */,
 				4FDBD7281D0A8CD700B44FEC /* AppDelegate.swift in Sources */,
+				26526BF51D0ADD9600638A57 /* GoodCell.swift in Sources */,
+				26526BFF1D0BA66100638A57 /* Good.swift in Sources */,
 				4FDBD7301D0A8CD700B44FEC /* RealTimeEverything.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

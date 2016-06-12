@@ -10,7 +10,7 @@ import Foundation
 import SocketIOClientSwift
 class SocketIOManager : NSObject {
     static let sharedInstance = SocketIOManager();
-    let socket:SocketIOClient = SocketIOClient(socketURL: NSURL(string: "http://172.19.12.39:3000")!, options: ["log": true,"ForcePolling":true]);
+    let socket:SocketIOClient = SocketIOClient(socketURL: NSURL(string: "http://192.168.43.226:3000")!, options: ["log": true,"ForcePolling":true]);
     
     //SocketIOClient(socketURL: NSURL(string: "http://172.19.12.39:3000")!);
     
@@ -19,10 +19,10 @@ class SocketIOManager : NSObject {
     }
     
     func establishConnection() {
-        socket.on("connect") {
-            data, ack in
-            self.socket.emit("chat message", ["test":"sss"]);
-        }
+//        socket.on("connect") {
+//            data, ack in
+//            self.socket.emit("chat message", ["test":"sss"]);
+//        }
         
         self.socket.connect();
     }
