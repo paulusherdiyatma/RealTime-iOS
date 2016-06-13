@@ -56,6 +56,7 @@
 		26526C051D0BCA4D00638A57 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLabel.swift; path = custom/CustomLabel.swift; sourceTree = "<group>"; };
 		3CF0ACE3D3D4B749E60BADC8 /* Pods-RealTimeEverything.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeEverything.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeEverything/Pods-RealTimeEverything.release.xcconfig"; sourceTree = "<group>"; };
 		45B529796F7FDDA167F3CCF5 /* Pods-RealTimeEverythingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeEverythingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeEverythingUITests/Pods-RealTimeEverythingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F28EBF81D0E608C00181CD3 /* RealTime--Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealTime--Bridging-Header.h"; sourceTree = "<group>"; };
 		4FDB177F1D0A94A8005AB36E /* restApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restApi.swift; sourceTree = "<group>"; };
 		4FDBD7241D0A8CD700B44FEC /* RealTimeEverything.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeEverything.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDBD7271D0A8CD700B44FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -207,6 +208,7 @@
 				4FDBD7361D0A8CD700B44FEC /* Info.plist */,
 				4FDBD72E1D0A8CD700B44FEC /* RealTimeEverything.xcdatamodeld */,
 				4FDB177F1D0A94A8005AB36E /* restApi.swift */,
+				4F28EBF81D0E608C00181CD3 /* RealTime--Bridging-Header.h */,
 			);
 			path = RealTimeEverything;
 			sourceTree = "<group>";
@@ -647,6 +649,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulusherdiyatma.RealTimeEverything;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealTimeEverything/RealTime--Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -659,6 +662,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulusherdiyatma.RealTimeEverything;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealTimeEverything/RealTime--Bridging-Header.h";
 			};
 			name = Release;
 		};

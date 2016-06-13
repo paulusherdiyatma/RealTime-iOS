@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  RealTimeEverything
 //
-//  Created by MTMAC17 on 6/10/16.
+//  Created by paulus herdiyatma on 6/10/16.
 //  Copyright © 2016 paulusherdiyatma. All rights reserved.
 //
 

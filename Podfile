@@ -3,6 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 use_frameworks!
 pod 'Socket.IO-Client-Swift', '~> 5.5.0'
+pod 'UIScrollView-InfiniteScroll'
 
 target 'RealTimeEverything' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks

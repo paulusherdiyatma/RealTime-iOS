@@ -1,12 +1,15 @@
 PODS:
   - Socket.IO-Client-Swift (5.5.0)
+  - UIScrollView-InfiniteScroll (0.7.3)
 
 DEPENDENCIES:
   - Socket.IO-Client-Swift (~> 5.5.0)
+  - UIScrollView-InfiniteScroll
 
 SPEC CHECKSUMS:
   Socket.IO-Client-Swift: f39dbd4e9b295907bb7fd4b9588b89c00426783d
+  UIScrollView-InfiniteScroll: b6c7d6d155dca7f9c5dd43813ecffeb301b3d50c
 
-PODFILE CHECKSUM: 786e6907e54d16d585074ef10054b3cd06cce552
+PODFILE CHECKSUM: eaff0aaa7dd75b866e63456095cd14b87a04b9f3
 
 COCOAPODS: 1.0.1
